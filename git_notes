@@ -4,6 +4,6 @@ git checkout https://github.com/Snokendrutt/piradio.git
 git clone https://github.com/Snokendrutt/piradio.git
 config --global user.name "myname"
 git config user.name "myname"
-
+git commit -m "lst commit"
 git push origin master
 
