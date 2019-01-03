@@ -1,0 +1,9 @@
+Just some git notes beacause I'm senile.
+
+git checkout https://github.com/Snokendrutt/piradio.git
+git clone https://github.com/Snokendrutt/piradio.git
+config --global user.name "myname"
+git config user.name "myname"
+
+git push origin master
+
