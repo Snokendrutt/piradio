@@ -1,4 +1,4 @@
-[![WEB](https://img.shields.io/badge/web-go-blue)](https://www.reihell.se/)
+[![WEB](https://img.shields.io/badge/web-view-green)](https://www.reihell.se/)
 
 
 # piradio
