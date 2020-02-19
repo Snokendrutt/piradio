@@ -1,0 +1,27 @@
+ Orginal: https://jksinton.com/articles/rpi-compiling-icecast-support-openssl
+ 
+ Fresh Pie
+ sudo apt-get update
+ sudo apt-get upgrade
+ sudo apt install icecast2
+ sudo apt remove icecast2
+
+ Check if configfiles still there ls -l /etc/init.d/ /etc/ | grep icecast
+
+ To Build icecast 2 with SSL
+  sudo apt install git gcc build-essential
+  sudo apt install libcurl4-openssl-dev libxslt1-dev libxml2-dev libogg-dev libvorbis-dev libflac-dev libtheora-dev libssl-dev
+  optional sudo apt install libspeex-dev
+  
+  cd (or cd ~)
+  mkdir git
+  cd git
+  git clone --recursive https://git.xiph.org/icecast-server.git
+  cd icecast-server
+  ./autogen.sh (if autogen isn´t installeed sudo apt install autogen)
+  ./configure --with-curl --with-openssl
+  make -j4
+  sudo make install
+  
+  fix icecast2.xml according to youre needs.
+  
