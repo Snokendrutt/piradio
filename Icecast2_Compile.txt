@@ -11,6 +11,7 @@
  To Build icecast 2 with SSL
   sudo apt install git gcc build-essential
   sudo apt install libcurl4-openssl-dev libxslt1-dev libxml2-dev libogg-dev libvorbis-dev libflac-dev libtheora-dev libssl-dev
+  sudo apt install pkgconf autoconf dh-autoreconf libtool
   optional sudo apt install libspeex-dev
   
   cd (or cd ~)
@@ -23,5 +24,7 @@
   make -j4
   sudo make install
   
-  fix icecast2.xml according to youre needs.
+  create a cert, sudo chown icecast2:icecast /etc/icecast2/ssl/icecast.pem, fix icecast2.xml according to youre needs.
+  
+  Read the comments in the orginal article at https://jksinton.com/articles/rpi-compiling-icecast-support-openssl
   
