@@ -14,7 +14,7 @@ Setup:
 
 Raspberry PI 3B+ with SDCard and installed Raspian Stretch (not working with Buster at the moment, liquid soap copyright issues)
 
-128 GB USB for Music
+Some GB GB for USB for Music
 
 
 (If someone finds this usefull please say something:))
