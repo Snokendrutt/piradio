@@ -1,0 +1,19 @@
+Download "Raspbian Buster with desktop" from https://www.raspberrypi.org/downloads/raspbian/
+Write image with balenaEther or likwise
+touch ssh for headless ssh on boot
+create wpa_supplicant.conf boot
+
+ country=US
+ ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+ update_config=1
+ 
+ network={
+     ssid="NETWORK-NAME"
+     psk="NETWORK-PASSWORD"
+ }
+ 
+ install, start and connect to Raspberry PI 3 with ssh
+ sudo apt update
+ sudo apt upgrade
+ 
+ 
