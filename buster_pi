@@ -13,6 +13,7 @@ create wpa_supplicant.conf boot
  }
  
  install, start and connect to Raspberry PI 3 with ssh
+ sudo raspi-config to enable vnc
  sudo apt update
  sudo apt upgrade
  
