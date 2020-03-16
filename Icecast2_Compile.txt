@@ -4,14 +4,15 @@
  sudo apt-get update
  sudo apt-get upgrade
  sudo apt install icecast2
+ configure hostname and passwords
  sudo apt remove icecast2
 
  Check if configfiles still there ls -l /etc/init.d/ /etc/ | grep icecast
 
  To Build icecast 2 with SSL
-  sudo apt install git gcc build-essential
+  sudo apt install git gcc build-essential (usually alredy installed)
   sudo apt install libcurl4-openssl-dev libxslt1-dev libxml2-dev libogg-dev libvorbis-dev libflac-dev libtheora-dev libssl-dev
-  sudo apt install pkgconf autoconf dh-autoreconf libtool
+  sudo apt install pkgconf autoconf dh-autoreconf libtool autogen
   optional sudo apt install libspeex-dev
   
   cd (or cd ~)
@@ -19,7 +20,7 @@
   cd git
   git clone --recursive https://git.xiph.org/icecast-server.git
   cd icecast-server
-  ./autogen.sh (if autogen isn´t installeed sudo apt install autogen)
+  ./autogen.sh
   ./configure --with-curl --with-openssl
   make -j4
   sudo make install
