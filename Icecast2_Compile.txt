@@ -21,7 +21,7 @@
   git clone --recursive https://git.xiph.org/icecast-server.git
   cd icecast-server
   ./autogen.sh
-  ./configure --with-curl --with-openssl
+  ./configure --with-curl --with-openssl --without-speex
   make -j4
   sudo make install
   
