@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/xiph/Icecast-Server.svg?branch=master)](https://travis-ci.org/xiph/Icecast-Server)
  Orginal: https://jksinton.com/articles/rpi-compiling-icecast-support-openssl
  
  Fresh Pie
