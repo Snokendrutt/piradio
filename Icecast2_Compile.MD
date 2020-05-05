@@ -1,14 +1,14 @@
 [![WEB](https://img.shields.io/badge/compile-icecast-green)](https://www.reihell.se/)
 
  Orginal: https://jksinton.com/articles/rpi-compiling-icecast-support-openssl
- 
+ ```
   Fresh Pie Buster
   sudo apt-get update
   sudo apt-get upgrade
   sudo apt install icecast2
  configure hostname and passwords
  sudo apt remove icecast2
-
+```
  Check if configfiles still there ls -l /etc/init.d/ /etc/ | grep icecast
 
  To Build icecast 2 with SSL
