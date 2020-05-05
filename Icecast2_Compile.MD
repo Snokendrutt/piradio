@@ -31,7 +31,9 @@
  sudo ln -s /usr/local/share/icecast /usr/share/icecast2
   
   create a cert, sudo chown icecast2:icecast /etc/icecast2/ssl/icecast.pem, fix icecast2.xml according to youre needs.
-  
+  or use certbot and Letsencrypt
+```
+
   Read the comments in the orginal article at https://jksinton.com/articles/rpi-compiling-icecast-support-openssl
   
-```
+
