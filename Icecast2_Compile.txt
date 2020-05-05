@@ -1,9 +1,5 @@
-https://img.shields.io/badge/compile-icecast-green
-
-
 
 [![WEB](https://img.shields.io/badge/compile-icecast-green)](https://www.reihell.se/)
-
 
  Orginal: https://jksinton.com/articles/rpi-compiling-icecast-support-openssl
  
