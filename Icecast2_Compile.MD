@@ -2,13 +2,13 @@
 
  Orginal: https://jksinton.com/articles/rpi-compiling-icecast-support-openssl
  ```
-  Fresh Pie Buster
-  sudo apt-get update
-  sudo apt-get upgrade
-  sudo apt install icecast2
- configure hostname and passwords
+ Fresh Pie Buster
+ sudo apt-get update
+ sudo apt-get upgrade
+ sudo apt install icecast2
+ onfigure hostname and passwords
  sudo apt remove icecast2
-```
+
  Check if configfiles still there ls -l /etc/init.d/ /etc/ | grep icecast
 
  To Build icecast 2 with SSL
@@ -34,3 +34,4 @@
   
   Read the comments in the orginal article at https://jksinton.com/articles/rpi-compiling-icecast-support-openssl
   
+```
