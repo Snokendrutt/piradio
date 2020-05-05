@@ -2,10 +2,10 @@
 
  Orginal: https://jksinton.com/articles/rpi-compiling-icecast-support-openssl
  
- Fresh Pie
- sudo apt-get update
- sudo apt-get upgrade
- sudo apt install icecast2
+  Fresh Pie Buster
+  sudo apt-get update
+  sudo apt-get upgrade
+  sudo apt install icecast2
  configure hostname and passwords
  sudo apt remove icecast2
 
